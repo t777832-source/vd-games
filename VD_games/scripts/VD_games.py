@@ -1,6 +1,5 @@
-
-
+from VD_games.cli import welcome_user
 def main():
-    print("Welcome to the VD_games")
+	welcome_user()
 
 

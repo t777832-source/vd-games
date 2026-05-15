@@ -1,6 +1,6 @@
 install:
 	uv sync
-VD-games:
+vd-games:
 	uv run vd-games
 build:
 	uv build
