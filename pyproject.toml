@@ -4,6 +4,11 @@ package = true
 
 [project.scripts]
 vd-games = "VD_games.scripts.VD_games:main"
+VD-even = "VD_games.scripts.VD_even:main"
+[dependency-groups]
+dev = [
+    "ruff>=0.15.13",
+]
 [project]
 name = "vd-games"
 version = "0.1.0"
@@ -13,3 +18,7 @@ requires-python = ">=3.12"
 dependencies = [
     "prompt>=0.4.1",
 ]
+[tool.ruff]
+line-length = 88
+[tool.ruff.lint]
+select = ["E" , "F" , "W"]
