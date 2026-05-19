@@ -5,6 +5,10 @@ package = true
 [project.scripts]
 vd-games = "VD_games.scripts.VD_games:main"
 VD-even = "VD_games.scripts.VD_even:main"
+VD-calc = "VD_games.scripts.VD_calc:main"
+VD-nod = "VD_games.scripts.VD_nod:main"
+VD-progression = "VD_games.scripts.VD_progression:main"
+VD-prime = "VD_games.scripts.VD_prime:main"
 [dependency-groups]
 dev = [
     "ruff>=0.15.13",
